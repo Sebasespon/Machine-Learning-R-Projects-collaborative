@@ -255,7 +255,7 @@ var_impor %>%
   ) +
   coord_flip() + 
   theme_bw()
-
+# Test predictions
 
 mypred <- predict( mymodel, TestingSet)$predictions
 
